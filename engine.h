@@ -4,10 +4,8 @@
 
 bool game_is_running;
 
-int window_width;
-int window_height;
-int render_width;
-int render_height;
+int window_width, window_height;
+int render_width, render_height;
 
 bool input_get_key_down(SDL_Scancode scancode);
 bool input_get_key(SDL_Scancode scancode);

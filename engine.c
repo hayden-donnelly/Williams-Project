@@ -91,6 +91,7 @@ int main(int argc, const char *argv[])
         SDL_RenderPresent(renderer);
     }
 
+    game_unload();
     SDL_DestroyRenderer(renderer);
     SDL_DestroyWindow(window);
     SDL_Quit();

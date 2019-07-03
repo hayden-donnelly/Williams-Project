@@ -5,5 +5,6 @@
 void game_load();
 void game_update(double dt);
 void game_render(SDL_Renderer *renderer);
+void game_unload();
 
 #pragma endregion

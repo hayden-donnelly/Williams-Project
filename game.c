@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <SDL2/SDL.h>
 #include "engine.h"
-#include <SDL2/SDL_Mixer.h>
+//#include <SDL2/SDL_Mixer.h>
 
 SDL_Texture *background_texture;
 SDL_Texture *zombie_texture;
@@ -385,6 +385,20 @@ void game_render(SDL_Renderer *renderer)
     {
         SDL_RenderCopy(renderer, between_round_ui, NULL, NULL);
     }
+}
+
+void game_unload()
+{
+    SDL_DestroyTexture(background_texture);
+    SDL_DestroyTexture(zombie_texture);
+    SDL_DestroyTexture(between_round_ui);
+    SDL_DestroyTexture(press_start);
+    SDL_DestroyTexture(speed_up);
+    SDL_DestroyTexture(game_over);
+    SDL_DestroyTexture(attack_speed_up);
+    SDL_DestroyTexture(damage_up);
+    SDL_DestroyTexture(victory);
+    SDL_DestroyTexture(final_challenge);
 }
 
 void zombie_chase(entity *desired_entity)
