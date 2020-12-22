@@ -2,7 +2,7 @@
 
 William's Project is a Binding of Issac styled game created in 72 hours for Ludem Dare 44. The engine code that originated here eventually went on to become ![Feather Engine](https://github.com/Bizbud/Feather-Engine).
 
-Use the makefile to compile - you'll need sdl2 and sdl2_image
+Use the makefile to compile - you'll need sdl2 and sdl2_image.
 
 ## Authors
 
