@@ -8,7 +8,7 @@ The theme was: Your Life is Currency
 
 * SDL2
 * SDL2_image
-* SDL2_ttf
+* SDL_mixer (can probably remove by editing makefile)
 
 ## Compilation and Execution
 
