@@ -1,6 +1,8 @@
 ## About
 
-William's Project is a Binding of Issac styled game created in 72 hours for Ludem Dare 44. The them was: Your Life is Currency.
+William's Project is a Binding of Issac styled game created in 72 hours for Ludem Dare 44. 
+
+The theme was: Your Life is Currency
 
 ## Dependencies
 
