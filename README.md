@@ -4,9 +4,19 @@ William's Project is a Binding of Issac styled game created in 72 hours for Lude
 
 Use the makefile to compile - you'll need sdl2 and sdl2_image.
 
-## Authors
+## Dependencies
 
-* **Hayden Donnelly** - *Programmer and Artist*
+* SDL2
+* SDL2_image
+* SDL2_ttf
+
+## Compilation and Execution
+
+To compile:
+`make all`
+
+To execute:
+`make run`
 
 ## Screenshots
 
