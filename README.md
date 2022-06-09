@@ -2,8 +2,6 @@
 
 William's Project is a Binding of Issac styled game created in 72 hours for Ludem Dare 44.
 
-Use the makefile to compile - you'll need sdl2 and sdl2_image.
-
 ## Dependencies
 
 * SDL2
